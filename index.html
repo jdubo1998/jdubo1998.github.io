@@ -59,7 +59,7 @@
     </div>
 
     <!--   ===   Nav Bar   ===   -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <nav class="navbar navbar-expand bg-dark navbar-dark sticky-top">
         <div class="container">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
@@ -78,11 +78,12 @@
     <!--   ===   About   ===   -->
     <section id="about" class="p-0 p-lg-5 pt-lg-5 text-center text-sm-start bg-dark text-light">
         <div class="container">
-            <div class="d-sm-flex align-items-center justify-content-between">
+            <div class="d-xl-flex align-items-center justify-content-between">
                 <div>
                     <div class="p-2 d-xl-flex flex-fill align-items-center">
-                        <img src="https://i.imgur.com/bVBG5RB.jpg" alt="Self-Taken Photo" class="rounded-circle" width="300px" height="300px"/><br><br>
-                        <div class="mx-4">
+                        <img src="https://i.imgur.com/bVBG5RB.jpg" alt="Self-Taken Photo" class="mx-auto d-block rounded-circle" width="300px" height="300px"/>
+                        <br><br>
+                        <div class="mx-5">
                             <h1>
                                 About
                             </h1>
@@ -106,9 +107,9 @@
                     </div>
                 </div>
                 
-                <div class="p-3 d-sm-flex justify-content-center">
+                <div class="p-1 d-sm-flex justify-content-center">
                     <iframe 
-                        src="https://drive.google.com/file/d/1teSYtlYohNMrc-aURUbAGkd6pOdPOSfy/preview" 
+                        src="https://drive.google.com/file/d/1bgqXqCS3kvViMPw3tLQpTRb5D9c0vA1V/preview" 
                         width="425" 
                         height="550" 
                         allow="autoplay"
@@ -269,9 +270,9 @@
                 </h1>
                 <ul class="list-unstyled">
                     <!-- Spacefist -->
-                    <!-- <li class="list-group-item pt-3 pb-3"> -->
+                    <li class="list-group-item pt-3 pb-3">
                         <!-- Title -->
-                        <!-- <div class="d-sm-flex align-items-start justify-content-between">
+                        <div class="d-sm-flex align-items-start justify-content-between">
                             <p>
                                 <span class="h3">Spacefist</span><br>
                                 <a href="https://jdubo1998.itch.io/spacefist" target="_blank">itch.io</a>
@@ -279,9 +280,9 @@
                             <h5 style="text-align: end;">
                                 Software and Prototype Developer<br>Aug 2021 - Dec 2021
                             </h5>
-                        </div> -->
+                        </div>
                         <!-- Text -->
-                        <!-- <div class="row">
+                        <div class="row">
                             <div class="col">
                                 <h5>
                                     Description
@@ -289,7 +290,28 @@
                                 <p>
                                     Spacefist is a 2D king-of-the-hill action fighting game.
                                     <br><br>
-                                    Created by Viviana D, Jacob D, Angel H, Joshua H, Hannah L, Ryan M, Dillon R
+                                    Created by: Viviana D, Jacob D, Angel H, Joshua H, Hannah L, Ryan M, Dillon R
+                                    <br><br>
+                                    <b>Overview:</b><br>
+                                    Two opponents will go head to head in order to be the king of the ring. Flying around and using a variety of attacks, 
+                                    your goal is to knock the other player out of the fiery boundaries in order to drain their health and await 
+                                    their demise.
+                                    <!-- <b>Contributions:</b>
+                                    <ul>
+                                        <li>
+                                            Designed a vector-based movement system to control objects on the screen.<br>
+                                            <ul>
+                                                <li style="list-style-type: square;">Movement Vector - Moves the player around using keyboard or controller input</li>
+                                                <li style="list-style-type: square;">Knockback Vector - Controlled by outside forces, applies a force on the 
+                                                    player caused explosions or enemy attacks. (This is seperated so that it cannot be manipulated by the player.)
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>Vector system uses an acceleration and deceleration component which gives a "floaty" feeling to the player's movements.</li>
+                                        <li>Implemented the Main Menu, Character Select Menu, Pause Menu, and Options Menu.</li>
+                                        <li>Created the initialization link between exiting the menus and entering into the gameplay.</li>
+                                    </ul> -->
+                                    <br>
                                 </p>
                             </div>
 
@@ -304,15 +326,15 @@
                                         - Cross-platform game engine.
                                     </li>
                                 </ul>
-                            </div> -->
-                        <!-- </div> -->
-                        <!-- Images -->
-                        <!-- <div class="d-sm-flex justify-content-evenly" id="aquavisionImages">
-                            <img src="test/av-img/av-appshowcase.jpg" alt="React Native Application" class="img-fluid flex-fill p-2" style="max-width: 25%;"/>
-                            <img src="test/av-img/av-raspap.jpg" alt="RaspAP Dashboard" class="img-fluid flex-fill p-2" style="max-width: 25%;"/>
-                            <img src="test/av-img/av-wirelessdiagram.jpg" alt="Wireless Diagram" class="img-fluid flex-fill p-2" style="max-width: 40%;"/>
+                            </div>
                         </div>
-                    </li> -->
+                        <!-- Images -->
+                        <div class="d-sm-flex justify-content-evenly" id="aquavisionImages">
+                            <!-- <img src="test/av-img/av-appshowcase.jpg" alt="React Native Application" class="img-fluid flex-fill p-2" style="max-width: 25%;"/>
+                            <img src="test/av-img/av-raspap.jpg" alt="RaspAP Dashboard" class="img-fluid flex-fill p-2" style="max-width: 25%;"/>
+                            <img src="test/av-img/av-wirelessdiagram.jpg" alt="Wireless Diagram" class="img-fluid flex-fill p-2" style="max-width: 40%;"/> -->
+                        </div>
+                    </li>
                     <!-- AquaVision -->
                     <li class="list-group-item pt-3 pb-3">
                         <!-- Title -->
@@ -335,7 +357,8 @@
                                     AquaVision is a wirelessly operated underwater 
                                     camera module that sends a video stream at a maximum range of up to 1 km.
                                     <br><br>
-                                    Created by Aarish Brohi, Jacob DuBois, Bryan Ofuokwu, and Brandon Pham.
+                                    <!-- Aarish Brohi, Jacob DuBois, Bryan Ofuokwu, and Brandon Pham -->
+                                    Created by: Aarish B, Jacob D, Bryan O, and Brandon P
                                     <br><br>
                                     <b>Overview:</b>
                                     <br>
@@ -411,6 +434,8 @@
                                 <p>
                                     Modular target system, which utilizes wireless technology to set up a target practice section.
                                     <!-- LoRa and FPV technology were both utilized to maximize the effective range of the system. -->
+                                    <br><br>
+                                    Created by: Jacob D
                                 </p>
                             </div>
 
@@ -463,7 +488,8 @@
                                 <p>
                                     Dungeons and Dragons web app tool for Dungeon Masters who can generate monster encounters during gameplay.
                                     <br><br>
-                                    Created by Conner Baird, Jacob DuBois, Isabel McClure, and Matthew Toney.
+                                    <!-- Conner Baird, Jacob DuBois, Isabel McClure, and Matthew Toney -->
+                                    Created by: Conner B, Jacob D, Isabel M, and Matthew T
                                     <!-- LoRa and FPV technology were both utilized to maximize the effective range of the system. -->
                                 </p>
                             </div>
@@ -520,7 +546,8 @@
                                     Sports management tool which provides a user interface for the user to retrieve 
                                     queries from an SQL database filled with college football records.
                                     <br><br>
-                                    Created by Jacob DuBois, William Fairleigh, Derrick Galindo, and Wyatt Hansen.
+                                    <!-- Jacob DuBois, William Fairleigh, Derrick Galindo, and Wyatt Hansen -->
+                                    Created by: Jacob D, William F, Derrick G, and Wyatt H.
                                     <!-- LoRa and FPV technology were both utilized to maximize the effective range of the system. -->
                                 </p>
                             </div>
